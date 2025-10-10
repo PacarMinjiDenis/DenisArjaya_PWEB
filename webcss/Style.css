@@ -1,0 +1,27 @@
+.Layout{
+    width: 455px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    background: lightblue;
+    padding: 10px;
+}
+.Layout img{
+    width: 150px;
+    height: 50px;
+    border: 1px solid black;
+}
+.bagus{
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: lightblue;
+    padding: 5px 1px 5px 1px;
+    margin: auto;
+}
+.bagus img{
+    width: 140px;
+    height: 100px;
+    border: 1px solid black;
+    margin: auto;
+}
