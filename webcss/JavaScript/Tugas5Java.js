@@ -1,0 +1,11 @@
+var a = 11;
+var b = 6;
+document.write("Perkailan : "+a+"*"+b+"="+(a*b));
+document.write("<br>");
+document.write("Pembagian : "+a+"/"+b+"="+(a/b));
+document.write("<br>");
+document.write("Penjumlahan : "+a+"+"+b+"="+(a+b));
+document.write("<br>");
+document.write("Pengurangan : "+a+"-"+b+"="+(a-b));
+document.write("<br>");
+document.write("Modulus : "+a+"%"+b+"="+(a%b)); 
