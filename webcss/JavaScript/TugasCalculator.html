@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script language="Javascript">
+    function hitung(operasi){
+        var a1 = parseFloat(document.fform.angka1.value);
+        var a2 = parseFloat(document.fform.angka2.value);
+        var hasil = 0;
+
+        if(operasi == 'tambah'){
+            hasil = a1 + a2;
+        } else if(operasi == 'kurang'){
+            hasil = a1 - a2;
+        } else if(operasi == 'kali'){
+            hasil = a1 * a2;
+        } else if(operasi == 'bagi'){
+            hasil = a1 / a2;
+        }
+        document.fform.hasil.value = hasil;
+    }
+</script>
+<body>
+    <h1 align="center">Membuat Calculator</h1>
+    <hr>
+    <form name="fform">
+        <div align="center">
+        Angka 1: <input type="text" name="angka1"><br><br>
+        Angka 2: <input type="text" name="angka2"><br><br>
+    </div>
+        <div align="center">
+        <input type="button" value="+" onclick="hitung('tambah')">
+        <input type="button" value="-" onclick="hitung('kurang')">
+        <input type="button" value="*" onclick="hitung('kali')">
+        <input type="button" value="/" onclick="hitung('bagi')">
+        <input type="reset" value="C"></p><br><br>
+        <hr>
+        Hasil: <input type="text" name="hasil" readonly><br>
+        </div>
+    </form>
+</body>
+</html>

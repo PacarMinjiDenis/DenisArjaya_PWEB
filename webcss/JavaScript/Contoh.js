@@ -1,0 +1,11 @@
+        var a1, a2;
+        var b1, b2;
+        var c;
+        a1 = prompt("Masukkan angka pertama", "");
+        a2 = prompt("Masukkan angka kedua", "");
+        c = a1 + a2;
+        document.write("Nilai" +  a1 + " + " + a2 + " = " + c + "<br>");
+        b1 = parseInt(a1);
+        b2 = parseInt(a2);
+        c = b1 + b2;
+        document.write("Nilai " + b1 + " + " + b2 + " = " + c + "<br>");   
